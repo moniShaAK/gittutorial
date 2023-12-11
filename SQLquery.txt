@@ -1,0 +1,6 @@
+SELECT companies.firstname, companies.lastname, companies.age, salary.firstname, salary.lastname
+FROM table1 companies
+JOIN table2 salary
+ON companies.firstname = salary.firstname
+GROUP BY  1
+ORDER BY 2
