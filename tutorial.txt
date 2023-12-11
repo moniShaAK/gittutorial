@@ -1,0 +1,5 @@
+Select  *
+From table1
+Where school_name = 'christ'
+Group By 1
+Order By 1
