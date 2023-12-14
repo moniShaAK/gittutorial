@@ -1,5 +1,5 @@
 Select  *
 From table1
-Where school_name = 'christ' AND place = 'Kannur'
+Where school_name = 'christ' AND place = 'Kannur' AND student_id = '00121'
 Group By 1
 Order By 1
