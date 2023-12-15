@@ -1,4 +1,6 @@
 Select  *
+CASE WHEN height > 190 THEN 'over 190'
+ELSE '190 or under' END AS height_group
 From table1
 Where school_name = 'christ' AND place = 'Kannur' AND student_id = '00121'
 Group By 1
