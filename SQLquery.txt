@@ -4,4 +4,4 @@ JOIN table2 salary
 ON companies.firstname = salary.firstname
 AND companies.lastname = salary.lastname
 GROUP BY  1
-ORDER BY 2
+ORDER BY 2 DESC
