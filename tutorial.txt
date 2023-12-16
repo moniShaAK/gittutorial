@@ -5,6 +5,6 @@ WHEN height > 170 THEN '171-190'
 WHEN height > 150 THEN '151-170'
 ELSE '150 or under' END AS height_group
 From table1
-Where school_name = 'christ' AND place = 'Kannur' AND student_id = '00121'
+Where birla_employee = 'True' AND school_name = 'christ' AND place = 'Kannur' AND student_id = '00121'
 Group By 1
 Order By 1
