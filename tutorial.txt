@@ -1,5 +1,6 @@
 Select  *
 CASE WHEN width > 190 THEN 'over 190'
+CASE WHEN weight > 190 THEN 'over 190'
 WHEN height > 170 THEN '171-190'
 WHEN height > 150 THEN '151-170'
 ELSE '150 or under' END AS height_group
